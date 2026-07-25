@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Agentic Coding gives an AI repository proprioception: live state, bounded probes, discriminating oracles, and truthful recovery.">
+  <meta name="theme-color" content="#07131d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Agentic Coding">
+  <meta property="og:description" content="Move through live repository state. Let every change earn the next one with evidence.">
+  <meta property="og:url" content="https://stunspot.github.io/agentic-coding/">
+  <meta property="og:image" content="https://stunspot.github.io/agentic-coding/assets/agentic-coding-hero.png">
+  <meta property="og:image:alt" content="A cyan route crosses a dark layered repository terrain through evidence checkpoints.">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Agentic Coding · Repository Proprioception for Agents</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Agentic Coding home">
+        <span class="brand-mark" aria-hidden="true">AC</span>
+        <span>Agentic Coding</span>
+      </a>
+      <div class="nav-links">
+        <a href="#loop">Evidence loop</a>
+        <a href="#packet">Work packet</a>
+        <a href="#oracles">Oracles</a>
+        <a href="#recovery">Recovery</a>
+        <a href="https://github.com/Stunspot/agentic-coding">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Repository proprioception for agents</p>
+        <h1>Know where you are.<br>Make one move.<br>Read what changed.</h1>
+        <p class="lede">Agentic Coding keeps an AI oriented in the repository that exists now: current state, local instructions, live hypotheses, bounded changes, available oracles, and the exact point where confidence ends.</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/Stunspot/agentic-coding/blob/main/SKILL.md">Read the skill</a>
+          <a class="button secondary" href="https://github.com/Stunspot/agentic-coding">Explore the source</a>
+        </div>
+        <p class="quiet">Contest edition 1.0.0 · MIT License · Standalone source, not an independent-install claim</p>
+      </div>
+      <figure class="hero-visual">
+        <img src="assets/agentic-coding-hero.png" width="1600" height="900" alt="A luminous cyan route traverses a dark layered repository terrain through localized evidence checkpoints.">
+      </figure>
+    </section>
+
+    <section class="section loop-section" id="loop">
+      <div class="section-heading">
+        <p class="eyebrow">The operating loop</p>
+        <h2>Let each move earn the next one.</h2>
+        <p>Code volume is not progress. A useful episode advances through new observables, keeps the causal story intact, and widens only when the evidence demands it.</p>
+      </div>
+      <ol class="evidence-loop">
+        <li><span>01</span><strong>Map</strong><small>Find the repository boundary, current state, local instructions, and behavior surface.</small></li>
+        <li><span>02</span><strong>Localize</strong><small>Read the target beside its nearest tests, callers, contracts, and error path.</small></li>
+        <li><span>03</span><strong>Hypothesize</strong><small>Name one live causal mechanism and the observation that would falsify it.</small></li>
+        <li><span>04</span><strong>Probe</strong><small>Make the smallest reversible change or experiment that can discriminate the hypothesis.</small></li>
+        <li><span>05</span><strong>Interrogate</strong><small>Run the narrowest available oracle that actually exercises the claimed behavior.</small></li>
+        <li><span>06</span><strong>Interpret</strong><small>State what the outcome supports—and what it does not.</small></li>
+        <li><span>07</span><strong>Checkpoint</strong><small>Close, recover, or hand off with an exact re-entry condition.</small></li>
+      </ol>
+    </section>
+
+    <section class="section packet-section" id="packet">
+      <div class="section-heading">
+        <p class="eyebrow">A resumption surface, not a transcript</p>
+        <h2>Carry only the state that keeps the next context competent.</h2>
+      </div>
+      <div class="packet">
+        <div class="packet-label" aria-hidden="true">
+          <span>WORK PACKET</span>
+          <span>LIVE / BOUNDED</span>
+        </div>
+        <dl>
+          <div><dt>Objective</dt><dd>The intended behavior and the evidence that would advance acceptance.</dd></div>
+          <div><dt>Authority</dt><dd>What is permitted, what is in scope, and what remains excluded.</dd></div>
+          <div><dt>Repository state</dt><dd>Root, branch or working state, local instructions, and known mutations.</dd></div>
+          <div><dt>Decisive facts</dt><dd>Tests, callers, interfaces, configuration, and error-path observations that constrain the explanation.</dd></div>
+          <div><dt>Live hypothesis</dt><dd>One causal story, paired with a falsifier rather than protected by optimism.</dd></div>
+          <div><dt>Next probe</dt><dd>The smallest reversible information-producing move and its exact re-entry condition.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="oracles">
+      <div class="section-heading">
+        <p class="eyebrow">Verification with a declared scope</p>
+        <h2>Ask the narrowest oracle that can disagree.</h2>
+        <p>A passing command is evidence only for the behavior it exercised. Widen the oracle when a change crosses a shared utility, public contract, schema, build configuration, or permission boundary.</p>
+      </div>
+      <div class="oracle-grid">
+        <article><span class="oracle-code">TEST</span><h3>Targeted test</h3><p>Best when a meaningful before/after signal can isolate the defect or requested behavior.</p></article>
+        <article><span class="oracle-code">BUILD</span><h3>Build</h3><p>Exercises integration, generated output, bundling, and configuration surfaces that a unit test may never touch.</p></article>
+        <article><span class="oracle-code">LINT</span><h3>Lint</h3><p>Checks policy and static conventions; useful, but never a substitute for runtime behavior.</p></article>
+        <article><span class="oracle-code">TYPE</span><h3>Typecheck</h3><p>Discriminates contract compatibility and data-shape assumptions without claiming the program worked.</p></article>
+        <article><span class="oracle-code">READ</span><h3>Target readback</h3><p>Confirms the actual state written by a tool or patch, not merely the tool's success message.</p></article>
+      </div>
+    </section>
+
+    <section class="section recovery-section" id="recovery">
+      <div class="section-heading">
+        <p class="eyebrow">Failure is evidence</p>
+        <h2>Recover by changing the premise.</h2>
+        <p>Repeating the same move after the same failure is not persistence; it is expensive superstition. Preserve the signature and last-known-good state, classify the episode, then alter localization, hypothesis, probe, or oracle.</p>
+      </div>
+      <div class="fault-grid">
+        <p><strong>Environmental fault</strong><span>The code path may be sound; the runtime, dependency, service, or local setup is not.</span></p>
+        <p><strong>Pre-existing failure</strong><span>The baseline was already broken. Keep that missing before/after evidence visible.</span></p>
+        <p><strong>False hypothesis</strong><span>The observation contradicts the causal story. Retire or revise it.</span></p>
+        <p><strong>Patch regression</strong><span>The bounded change worsened or displaced behavior. Return to the last-known-good state.</span></p>
+        <p><strong>Insufficient oracle</strong><span>The check passed or failed without exercising the decisive surface.</span></p>
+        <p><strong>Unknown mutation state</strong><span>The repository may not be in the state the agent thinks it is. Re-anchor before another edit.</span></p>
+      </div>
+    </section>
+
+    <section class="section three-truths">
+      <div class="section-heading">
+        <p class="eyebrow">Permission and acceptance</p>
+        <h2>Keep three truths separate.</h2>
+      </div>
+      <div class="truth-grid">
+        <article><span>AUTHORIZED</span><h3>What may be changed</h3><p>User and host authority define the action boundary. A convenient tool does not expand it.</p></article>
+        <article><span>OBSERVED</span><h3>What was attempted</h3><p>Record the actual command, patch, returned state, and failure signature without upgrading a tool message into verification.</p></article>
+        <article><span>ACCEPTED</span><h3>What an oracle established</h3><p>Independent acceptance stays distinct from authored implementation and carries the scope of the oracle used.</p></article>
+      </div>
+    </section>
+
+    <section class="section prompt-section">
+      <div class="section-heading">
+        <p class="eyebrow">A useful invocation</p>
+        <h2>Start with the evidence contract.</h2>
+      </div>
+      <blockquote>
+        Use <code>$agentic-coding</code> to diagnose this failing repository behavior. First map the live state and local instructions, then identify one causal hypothesis with a falsifier. Make only the smallest authorized probe or change, run the narrowest discriminating oracle, and report what the result supports, the unresolved risk, and the exact re-entry condition.
+      </blockquote>
+      <p>The skill is designed for live repository work inside a host that already provides the relevant files and tools. This standalone repository preserves the public contest source; independent plugin installation is not claimed by the contest evidence.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Agentic Coding</strong> · Collaborative Dynamics · OpenAI Build Week contest edition.</p>
+    <p><a href="https://github.com/Stunspot/agentic-coding">Repository</a> · <a href="https://github.com/Stunspot/agentic-coding/blob/main/LICENSE.md">MIT License</a> · <a href="https://github.com/Stunspot/nova-the-optimal-ai-mind/tree/e42dd11646bc548b9ac29d6f700370365ee68986/plugins/nova-the-optimal-ai/skills/agentic-coding">Contest source</a></p>
+  </footer>
+</body>
+</html>
