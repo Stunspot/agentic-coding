@@ -50,7 +50,7 @@ The skill is designed for live repository work inside a host that already provid
 
 ## The work packet
 
-When an episode crosses turns, tools, mutations, failure recovery, or handoff, preserve a compact resumption surface containing:
+When meaningful continuation, recovery, or a custody handoff would otherwise lose the necessary bearings, preserve a compact resumption surface. Select only the fields the next actor needs:
 
 | Field | Record |
 |---|---|
