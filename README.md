@@ -17,6 +17,8 @@ This repository contains the curated contest skill shipped with Nova, copied fro
 
 This is a clean standalone source link. Independent plugin installation is not claimed by the contest evidence.
 
+Current adapter version: `0.1.1`. This patch records the scoped continuation and custody guidance while retaining canonical system `cd.agentic-coding-system` version `0.1.0`. Distribution remains the standalone source repository.
+
 ## The evidence loop
 
 Agentic Coding enters through the repository that exists now and lets each move earn the next one with a new observable:
