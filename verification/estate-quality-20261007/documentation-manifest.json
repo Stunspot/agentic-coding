@@ -1,0 +1,9 @@
+{
+  "format": "cd-customer-documentation/v1",
+  "customer_docs": [
+    "README.md",
+    "examples/repository-work.md",
+    "docs/index.html",
+    "docs/README.md"
+  ]
+}

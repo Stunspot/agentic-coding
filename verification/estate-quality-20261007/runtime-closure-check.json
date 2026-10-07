@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "selected": [
+    "LICENSE.md",
+    "README.md",
+    "SKILL.md",
+    "adapter-manifest.json",
+    "agents/openai.yaml",
+    "examples/repository-work.md"
+  ],
+  "local_links": [
+    {
+      "from": "README.md",
+      "target": "SKILL.md"
+    },
+    {
+      "from": "README.md",
+      "target": "examples/repository-work.md"
+    },
+    {
+      "from": "README.md",
+      "target": "adapter-manifest.json"
+    },
+    {
+      "from": "README.md",
+      "target": "LICENSE.md"
+    }
+  ],
+  "adapter_contract_unchanged": true,
+  "boundary": "Complete declared local documentation closure; no model behavior claim"
+}

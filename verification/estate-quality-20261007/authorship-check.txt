@@ -1,0 +1,1 @@
+{"ok": true, "format": "cd-hesperos-documentation-authorship/v1", "output": "verification/estate-quality-20261007/documentation-authorship.json"}

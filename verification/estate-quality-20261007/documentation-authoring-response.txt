@@ -1,0 +1,8 @@
+Materially revised source/runtime customer guidance and authored contrasting worked examples using Hesperos and current source evidence.
+AUTHORING_RUN_ID: agentic-coding-estate-20261007
+AUTHORING_CAPABILITY: hesperos-documentation
+AUTHORSHIP_SCOPE: materially-revised
+AUTHORED_FILES_COUNT: 4
+AUTHORED_FILES: README.md | examples/repository-work.md | docs/index.html | docs/README.md
+DOCUMENTATION_FINGERPRINT: bf342d55323ec3975fd4dc415978fd6b22f6d34783cb48105328296dfd98a5a2
+HESPEROS_AUTHORING_COMPLETE

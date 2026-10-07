@@ -20,3 +20,14 @@
 # Binary containers and media.
 *.webp binary
 *.mp4 binary
+
+# Preserve exact hash-bound verification artifacts from the accepted review.
+"/verification/estate-quality-20261007/authorship-check.txt" -text
+"/verification/estate-quality-20261007/documentation-authoring-response-final-r2.txt" -text
+"/verification/estate-quality-20261007/documentation-authoring-response.txt" -text
+"/verification/estate-quality-20261007/documentation-authoring-response.txt.before-mobile-review" -text
+"/verification/estate-quality-20261007/documentation-evidence-packet.json" -text
+"/verification/estate-quality-20261007/documentation-execution.json" -text
+"/verification/estate-quality-20261007/documentation-manifest.json" -text
+"/verification/estate-quality-20261007/runtime-closure-check.json" -text
+"/verification/hesperos-capabilities/21606903702db1eae375cb8e05dcad821616d399a574488f0f1be738d6dab42f/SKILL.md" -text

@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "surface": "actual isolated headless Edge, local source file",
+  "checks": [
+    {
+      "name": "current_loop_visible",
+      "pass": true
+    },
+    {
+      "name": "skip_link_keyboard",
+      "pass": true
+    },
+    {
+      "name": "skip_target",
+      "pass": true
+    },
+    {
+      "name": "all_local_navigation_targets",
+      "pass": true,
+      "links": [
+        {
+          "name": "Skip to content",
+          "ok": true
+        },
+        {
+          "name": "\n        AC\n        Agentic Coding\n      ",
+          "ok": true
+        },
+        {
+          "name": "Evidence loop",
+          "ok": true
+        },
+        {
+          "name": "Work packet",
+          "ok": true
+        },
+        {
+          "name": "Oracles",
+          "ok": true
+        },
+        {
+          "name": "Recovery",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "mobile_page_fits",
+      "pass": true
+    },
+    {
+      "name": "all_seven_steps_fit",
+      "pass": true
+    },
+    {
+      "name": "hero_loaded",
+      "pass": true
+    }
+  ],
+  "model_trials": 0
+}

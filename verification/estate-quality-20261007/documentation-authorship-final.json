@@ -1,0 +1,72 @@
+{
+  "authored_files": [
+    {
+      "bytes": 4729,
+      "path": "README.md",
+      "sha256": "114a359a9b0df610e8569f1959f38ec99fe5193683ac24a3d4c9ea7e6ca0f4b4"
+    },
+    {
+      "bytes": 3947,
+      "path": "examples/repository-work.md",
+      "sha256": "7bc949b104aa3e91bfa8e5276f8a4f952db67171eed2171935c2d6baede5520c"
+    },
+    {
+      "bytes": 10694,
+      "path": "docs/index.html",
+      "sha256": "794852395b914a4fffe70b1d4ddf3215fc96fa7e3fbba2bffd360da483fd6de3"
+    },
+    {
+      "bytes": 715,
+      "path": "docs/README.md",
+      "sha256": "4ab02abfcd0271fa5ba607ac9d2e642fa405d997e01a60b16fbdeaeb5a32d78f"
+    }
+  ],
+  "authoring": {
+    "authorship_scope": "materially-revised",
+    "capability": "hesperos-documentation",
+    "capability_entrypoint_sha256": "21606903702db1eae375cb8e05dcad821616d399a574488f0f1be738d6dab42f",
+    "capability_revision": "sha256:21606903702db1eae375cb8e05dcad821616d399a574488f0f1be738d6dab42f",
+    "capability_snapshot": {
+      "bytes": 7306,
+      "path": "verification/hesperos-capabilities/21606903702db1eae375cb8e05dcad821616d399a574488f0f1be738d6dab42f/SKILL.md",
+      "sha256": "21606903702db1eae375cb8e05dcad821616d399a574488f0f1be738d6dab42f"
+    },
+    "mode": "in-process",
+    "run_id": "agentic-coding-estate-20261007"
+  },
+  "authoring_response": {
+    "bytes": 511,
+    "path": "verification/estate-quality-20261007/documentation-authoring-response.txt",
+    "sha256": "bef704970d3a31ee5a3f99a1f243fe29d736169468c242fb3fd39232ad33d94d"
+  },
+  "claim_boundary": "Binds retained evidence for one Hesperos authoring or material-revision run. It does not prove independent review, host activation, publication, accessibility conformance, or customer outcomes.",
+  "created_at": "2026-10-07T02:37:35+00:00",
+  "documentation_fingerprint": "bf342d55323ec3975fd4dc415978fd6b22f6d34783cb48105328296dfd98a5a2",
+  "documentation_manifest": {
+    "bytes": 178,
+    "path": "verification/estate-quality-20261007/documentation-manifest.json",
+    "sha256": "eaf044f2be030069cfe25bc7f9e0db559a760301bf3ebd8c5306d1ead11e721c"
+  },
+  "evidence_packet": {
+    "bytes": 608,
+    "path": "verification/estate-quality-20261007/documentation-evidence-packet.json",
+    "sha256": "d7d600c499f90c1e9ab4521bb14b1bfb901b23ef91d53de69f73741a490822e3"
+  },
+  "execution_evidence": [
+    {
+      "bytes": 435,
+      "path": "verification/estate-quality-20261007/documentation-execution.json",
+      "sha256": "493396c32db1e1e959acf249d85f52b5b2cd1a7c2b97e0d3701d4473de31593c"
+    },
+    {
+      "bytes": 511,
+      "path": "verification/estate-quality-20261007/documentation-authoring-response.txt",
+      "sha256": "bef704970d3a31ee5a3f99a1f243fe29d736169468c242fb3fd39232ad33d94d"
+    }
+  ],
+  "format": "cd-hesperos-documentation-authorship/v1",
+  "product": {
+    "slug": "agentic-coding",
+    "version": "0.1.1"
+  }
+}

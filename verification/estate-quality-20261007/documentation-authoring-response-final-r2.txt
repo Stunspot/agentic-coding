@@ -1,0 +1,8 @@
+Completed the same Hesperos authoring run, correcting literal site encoding defects found by independent review. Four authored documents remain in scope; original and prior receipts retained.
+AUTHORING_RUN_ID: agentic-coding-estate-20261007
+AUTHORING_CAPABILITY: hesperos-documentation
+AUTHORSHIP_SCOPE: materially-revised
+AUTHORED_FILES_COUNT: 4
+AUTHORED_FILES: README.md | examples/repository-work.md | docs/index.html | docs/README.md
+DOCUMENTATION_FINGERPRINT: 896bafd1fc7a86f987152b28d42541920e3817cd4fe3f0ab1c2c91db29f2791c
+HESPEROS_AUTHORING_COMPLETE

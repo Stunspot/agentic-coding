@@ -1,0 +1,5 @@
+{
+  "agent": "root",
+  "mode": "in-process",
+  "action": "Applied Hesperos canonical and practitioner guidance to current source README, concrete contrast examples and site: first-use implementation/diagnosis requests, proportionate completion, current-vs-historical identity, safe shared-state recovery and explicit evidence limits. Removed unshipped relative asset dependency from runtime README; site art remains unchanged."
+}

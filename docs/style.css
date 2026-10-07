@@ -326,3 +326,15 @@ footer strong { color: var(--pale); }
   html { scroll-behavior: auto; }
   .hero-visual { transform: none; }
 }
+
+/* Keep the full operating sequence discoverable without horizontal scrolling. */
+@media (max-width: 70rem) {
+  .evidence-loop { grid-template-columns: repeat(2, minmax(0, 1fr)); overflow-x: visible; }
+  .evidence-loop::before { display: none; }
+  .evidence-loop li { min-width: 0; padding: 1.3rem; border-bottom: 1px solid var(--line); }
+  .evidence-loop li > span { margin-bottom: 1rem; }
+}
+@media (max-width: 48rem) {
+  .evidence-loop { grid-template-columns: minmax(0, 1fr); }
+  .evidence-loop li { border-right: 0; }
+}
