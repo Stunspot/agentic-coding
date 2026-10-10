@@ -1,6 +1,6 @@
 ---
 name: agentic-coding
-description: "🧭 Repository proprioception for agents."
+description: "🧭 Repository context, safe edits, and change delivery."
 ---
 
 # Move through live repository state
